@@ -1,11 +1,16 @@
-h1{
-  color: #e6855e;
-  font-size: 30px;
-  background-color:#f3f372;
-  height: 80px;
-  width: 200px;
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
 }
-img{
-  height:50px;
-  width:70px;
+
+h1 {
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
 }
