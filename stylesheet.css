@@ -9,3 +9,22 @@ img{
   height:50px;
   width:70px;
 }
+
+/* style.css */
+
+body {
+  background-color: blue;
+}
+
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!-- Konten HTML Anda -->
+</body>
+</html>
+
