@@ -1,11 +1,36 @@
-h1{
-  color: #e6855e;
-  font-size: 30px;
-  background-color:#f3f372;
-  height: 80px;
-  width: 200px;
+li{
+  color:aquamarine
 }
-img{
-  height:50px;
-  width:70px;
+
+.selected{
+  color:bisque
+}
+
+
+li {
+ list style: none;
+ float:left;
+ padding:33px 20px;
+}
+
+.header {
+  background-color :lightskyblue;
+  color: black;
+  height: 90px;
+}
+  
+.header-logo {
+  font-size:36px; 
+  float: left;
+  padding:20px 40px; 
+}
+
+.main {
+  background-color :lightblue;
+  height: 600px;
+}
+
+.footer {
+  background-color :stategray;
+  height: 270px;
 }
