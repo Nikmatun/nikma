@@ -1,44 +1,87 @@
 body {
-        color: #5ee1e6;
-        font-size: 20px;
-        background-color: #141312;
-        height: 50px;
-        width: 70px;
-      }
-      img{
-        height:200px;
-        width:500px;
-      }
-body {
   font-family: "Avenir Next";
 }
 
 li {
   list-style: none;
-  float: left;
-  /* Ubahlah padding atas & bawah ke 33px, dan padding kiri & kanan ke 20px */
-  
 }
 
 .header {
-  background-color: #26d0c9;
-  color: #fff;
+  background-color: #00fff7;
+  color: #ffffff;
   height: 90px;
 }
 
 .header-logo {
   float: left;
   font-size: 36px;
-  /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
-  
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
 }
 
 .main {
-  background-color: #bdf7f1;
-  height: 600px;
+  padding: 100px 80px;
 }
 
+.copy-container h1 {
+  font-size: 140px;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.contents {
+  height: 500px;
+  /* Ganti property margin-top ke 100px */
+  
+}
+
+.section-title {
+  border-bottom: 2px solid #ffffff;
+  /* Ganti font-size ke 28px */
+  
+  
+  /* Ganti property padding-bottom ke 15px */
+  
+  
+  /* Ganti property margin-bottom ke 50px */
+  
+}
+
+.contents-item {
+  float: left;
+  /* Ganti margin-right ke 40px */
+  
+}
+
+/* Ganti font-size dan margin-top tag <p> yang di dalam contents-item */
+
+
 .footer {
-  background-color: #ceccf3;
-  height: 270px;
+  background-color: #2f5167;
+  color: #fff6f6;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
 }
