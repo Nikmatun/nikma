@@ -1,88 +1,82 @@
 body {
-  font-family: "Avenir Next";
-  background-color: #cbf2fd;
+  margin: 0;
+  font-family: "Lucida Grande";
 }
 
-li {
-  list-style: none;
+a {
+  text-decoration: none;
 }
 
-.header {
-  background-color: #166967;
-  color: #ffffff;
-  height: 90px;
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
-.header-logo {
-  float: left;
-  font-size: 36px;
-  padding: 20px 40px;
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 
-.header-list li {
-  float: left;
-  padding: 33px 20px;
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
 }
 
-.main {
-  padding: 100px 80px;
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
 }
 
-.copy-container h1 {
-  font-size: 140px;
+.btn-wrapper {
+  margin: 20px 0;
 }
 
-.copy-container h2 {
-  font-size: 60px;
+.btn-wrapper p {
+  margin: 10px 0;
 }
 
-.copy-container span {
-  color: #ff4a4a;
+.signup {
+  background-color: #239b76;
 }
 
-.contents {
-  height: 500px;
-  /* Ganti property margin-top ke 100px */
-  
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
 }
 
-.section-title {
-  border-bottom: 2px solid #ffffff;
-  /* Ganti font-size ke 28px */
-  
-  
-  /* Ganti property padding-bottom ke 15px */
-  
-  
-  /* Ganti property margin-bottom ke 50px */
-  
+.twitter {
+  background-color: #55acee;
 }
 
-.contents-item {
-  float: left;
-  /* Ganti margin-right ke 40px */
-  
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
 }
 
-/* Ganti font-size dan margin-top tag <p> yang di dalam contents-item */
-
-
-.footer {
-  background-color: #2f5167;
-  color: #fff6f6;
-  height: 120px;
-  padding: 40px;
+.btn:hover {
+  opacity: 1;
 }
 
-.footer-logo {
-  float: left;
-  font-size: 32px;
+.fa {
+  margin-right: 5px;
 }
 
-.footer-list {
-  float: right;
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
 }
 
-.footer-list li {
-  padding-bottom: 20px;
+.logo {
+  width: 124px;
+  margin-top: 20px;
 }
