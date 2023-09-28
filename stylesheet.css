@@ -1,82 +1,87 @@
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-}
-
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
-  background-size: cover;
-  color: white;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
-}
-
-.btn-wrapper {
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
+/* Style the header */
 header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
+/* Style the menu section */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
 }
+
+/* Style each menu item */
+.menu-item {
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item h2 {
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 14px;
+}
+
+.menu-item span {
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+}
+/* CSS untuk menu "Pilih Makanan" */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pilihMakanan {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* CSS untuk elemen "Terima Kasih" */
+.terima-kasih {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.terima-kasih p {
+    font-size: 18px;
+}
+/* Mengganti latar belakang dengan gambar blur */
+body {
+    background-image: url('https://img.freepik.com/premium-photo/bay-leaf-black-pepper-black-background-condiments-flat-view-space-text_350891-622.jpg'); /* Ganti 'gambar-blur.jpg' dengan nama berkas gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Memastikan gambar tetap di tempat saat menggulir halaman */
+    color: #fff; /* Warna teks agar terlihat jelas di atas gambar blur */
+}
+
